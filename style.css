@@ -22,13 +22,74 @@ img{max-width;100%;
     align-items;center;
     background:#fff;
 }
-.header-logo{display:flex;align-items;center;
+.header-logo{
+    display:flex;
+    align-items;center;
 background:#fff;
-} background:#222;
- color:#fff;
- text-align:center;
+} 
+
+.header-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding-left:20px;
+    flex-shrink:0;
+}
+.header-logo a{
+    display:block;
 }
 
+.site-title{
+ margin:0;
+ font-saize:11px;
+ font-weight:normal;
+ line-height:1.2;
+ color:#333;
+ white-space:nowrap;
+}
+
+.header-nav-area{
+    flex:1;
+    display:flex;
+    justify-content:flex-end;
+    padding:0 16px;
+}
+.global-nav{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap:0;
+}
+
+.main-menu,
+.sub-menu{
+    display:flex;
+    align-items:center;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.main-menu{
+    gap:17px;
+    line-height:1;
+}
+.sub-menu{
+
+    gap:12px;
+    line-height:1;
+    maegin-top:6px;
+}
+.main-menu a{
+    font-size:13px;
+    font-weight:bold;
+    line-height:1;
+}
+.sub-menu a{
+    font-size:10pix;
+    font-weight:normal;
+    line-height:1;
+    color:#333
+}
 main{
  padding:80px 24px;
  text-align:center;
