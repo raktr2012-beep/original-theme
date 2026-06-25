@@ -4,7 +4,7 @@
     <meta charset="<?php bloginfo('charset');?>">
     <meta name="viewport"content="width=device-width,initial-scale=1.0">
     <title><?php bloginfo('name');?></title>
-    <link rel="stylesheet"hrer="<?php echo get_stylesheet_uri();?>">
+    <link rel="stylesheet"href="<?php echo get_stylesheet_uri();?>">
     <?php wp_head();?>
 </head>
 <body<?php body_class();?>>
@@ -27,10 +27,10 @@
      
      <nav class="global-nav">
       <ul class="main-menu">
-       <li><a href="<php echo esc_url(home_url('/'));?>">ホーム</a></li>
+       <li><a href="<?php echo esc_url(home_url('/'));?>">ホーム</a></li>
        <li><a href="#>プロフィール</a><li>
        <li><a href="#">制作実績＜/a></li>
-       <li><a href="＃”>料金・制作の流れ</a></li>
+       <li><a href="#”>料金・制作の流れ</a></li>
       </ul>
     
     <ul class="sub-menu">
